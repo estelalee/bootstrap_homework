@@ -142,7 +142,7 @@
         <button type="button" class="btn btn-primary active">Active Button</button>
         <button type="button" class="btn btn-primary disabled">Disabled Button</button>
 
-        <button type="button" class="btn btn-primary toggle">
+        <button type="button" class="btn btn-primary"  data-toggle="button">
             Toggle State
         </button>
 
@@ -150,9 +150,9 @@
         <br>
 
         <!-- BUTTON GROUPS -->
-        <div btn-group>
+        <div class="btn-group">
             <button type="button"  class="btn btn-primary ">Left</button>
-            <button type="button" class="btn btn-primary ">Middle</button>
+            <button type="button" class="btn btn-secondary ">Middle</button>
             <button type="button" class="btn btn-primary ">Right</button>
         </div>
 
@@ -180,21 +180,21 @@
         <br>
 
         <!-- VERTICAL GROUP -->
-        <div class="btn-group ">
-            <button type="button" class=" btn btn-primary">Left</button>
+        <div class="btn-group-vertical">
+            <button type="button" class=" btn btn-primary">Top</button>
             <button type="button" class=" btn btn-primary">Middle</button>
-            <button type="button" class=" btn btn-primary">Right</button>
+            <button type="button" class=" btn btn-primary">Bottom</button>
         </div>
 
         <br>
         <br>
 
         <!-- BUTTON DROPDOWNS -->
-        <div class="btn-group">
-            <button type="button" class=" btn btn-primary dropdown-menu  dropdown-toggle" data-toggle="dropdown">
+        <div class="btn-group dropdown">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                 My Dropdown
             </button>
-            <div>
+            <div class=" dropdown-menu">
                 <a href="#" class="dropdown-item">Link One</a>
                 <a href="#" class="dropdown-item">Link Two</a>
                 <a href="#" class="dropdown-item">Link Three</a>
@@ -205,10 +205,10 @@
         <br>
 
         <!-- SPLIT DROPDOWNS -->
-        <div class="btn-group">
+        <div class="btn-group dropdown">
             <button type="button" class="btn btn-primary">My Button</button>
-            <button type="button" class="btn btn-primary dropdown-menu dropdown-toggle-split" data-toggle="dropdown">
-                <span  class="sr-only">Toggle Dropdown</span>
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">
+                <span>Toggle Dropdown</span>
             </button>
             <div  class="dropdown-menu">
                 <a  class="dropdown-item"href="#">Link One</a>
